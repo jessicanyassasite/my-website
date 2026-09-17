@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#16130F"/>
+  <rect x="3.5" y="3.5" width="57" height="57" fill="none" stroke="#A98A52" stroke-width="1"/>
+  <text x="32" y="44" text-anchor="middle" font-family="Didot, 'Bodoni MT', Georgia, serif"
+        font-size="34" font-weight="500" fill="#F4F0E8">JN</text>
+</svg>
