@@ -605,7 +605,7 @@ a.index-item:hover .index-item__no { color: var(--oxblood); }
   overflow: hidden;
 }
 .band__media { position: absolute; inset: 0; }
-.band__media img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.band__media img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
 .band__media::after {
   content: "";
   position: absolute; inset: 0;
