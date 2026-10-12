@@ -937,6 +937,7 @@ fieldset { border: 0; margin: 0 0 var(--s-5); padding: 0; }
   height: auto;
 }
 
+
 /* Mobile */
 
 @media (max-width: 760px) {
@@ -959,3 +960,20 @@ fieldset { border: 0; margin: 0 0 var(--s-5); padding: 0; }
   }
 }
 
+/* FIX CONTACT PAGE PHOTO */
+
+.contact-image .frame {
+  height: auto;
+  aspect-ratio: auto;
+  min-height: 0;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.contact-image .frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
