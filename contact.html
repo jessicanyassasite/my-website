@@ -54,70 +54,10 @@
     <div class="wrap">
       <div class="split split--media">
         <div>
-          <form class="form" method="POST" action="#">
-            <div class="form__row form__pair">
-              <div>
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" autocomplete="name" required>
-              </div>
-              <div>
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" autocomplete="email" required>
-              </div>
-            </div>
-
-            <div class="form__row form__pair">
-              <div>
-                <label for="organisation">Organisation <span class="hint">optional</span></label>
-                <input id="organisation" name="organisation" type="text" autocomplete="organization">
-              </div>
-              <div>
-                <label for="telephone">Telephone <span class="hint">optional</span></label>
-                <input id="telephone" name="telephone" type="tel" autocomplete="tel">
-              </div>
-            </div>
-
-            <div class="form__row">
-              <label for="service">What do you need?</label>
-              <select id="service" name="service" required>
-                <option value="" selected disabled>Please choose…</option>
-                <option>Historical &amp; Archival Research</option>
-                <option>Manuscript &amp; Primary Source Research</option>
-                <option>Historical Consultancy &amp; Accuracy</option>
-                <option>Object, Artwork &amp; Provenance Research</option>
-                <option>Museum &amp; Exhibition Research</option>
-                <option>Historical Writing &amp; Interpretation</option>
-                <option>Research Briefs &amp; Source Packs</option>
-                <option>Lectures, Talks &amp; Workshops</option>
-                <option>Other</option>
-              </select>
-              <p class="hint">If your project spans several of these, choose the closest and say more below.</p>
-            </div>
-
-            <div class="form__row">
-              <label for="timeline">Timescale <span class="hint">optional</span></label>
-              <input id="timeline" name="timeline" type="text" placeholder="e.g. delivery by March, or exploratory">
-            </div>
-
-            <div class="form__row">
-              <label for="message">About the project</label>
-              <textarea id="message" name="message" rows="7" required></textarea>
-              <p class="hint">Subject or period, what stage the project is at, and what would be most useful.</p>
-            </div>
-
-            <!-- Spam trap: hidden from people, tempting to bots. -->
-            <div class="visually-hidden" aria-hidden="true">
-              <label for="website">Website</label>
-              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
-            </div>
-
-            <button class="btn btn--primary" type="submit">Send enquiry</button>
-
-            <p class="form__note">
-              Your details are used only to reply to your enquiry. They are never shared or
-              added to a mailing list.
-            </p>
-          </form>
+          <a class="btn btn--primary"
+             href="mailto:hello@jessicanyassa.com?subject=Historical%20Research%20Enquiry">
+             Contact Me
+          </a>
         </div>
 
         <div>
